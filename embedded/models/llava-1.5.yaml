@@ -23,9 +23,9 @@ template:
 
 download_files:
 - filename: llava-v1.5-7b-Q4_K.gguf
-  uri: huggingface://jartine/llava-v1.5-7B-GGUF/llava-v1.5-7b-Q4_K.gguf
+  uri: https://hf-mirror.com/jartine/llava-v1.5-7B-GGUF/llava-v1.5-7b-Q4_K.gguf
 - filename: llava-v1.5-7b-mmproj-Q8_0.gguf
-  uri: huggingface://jartine/llava-v1.5-7B-GGUF/llava-v1.5-7b-mmproj-Q8_0.gguf
+  uri: https://hf-mirror.com/jartine/llava-v1.5-7B-GGUF/llava-v1.5-7b-mmproj-Q8_0.gguf
 
 usage: |
     curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/json" -d '{

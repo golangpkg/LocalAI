@@ -13,7 +13,7 @@ diffusers:
 
 download_files:
 - filename: DreamShaper_8_pruned.safetensors
-  uri: huggingface://Lykon/DreamShaper/DreamShaper_8_pruned.safetensors
+  uri: https://hf-mirror.com/Lykon/DreamShaper/DreamShaper_8_pruned.safetensors
 
 usage: |
         curl http://localhost:8080/v1/images/generations \

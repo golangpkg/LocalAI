@@ -1,7 +1,7 @@
 name: dolphin-mixtral-8x7b
 mmap: true
 parameters:
-  model: huggingface://TheBloke/dolphin-2.5-mixtral-8x7b-GGUF/dolphin-2.5-mixtral-8x7b.Q2_K.gguf
+  model: https://hf-mirror.com/TheBloke/dolphin-2.5-mixtral-8x7b-GGUF/dolphin-2.5-mixtral-8x7b.Q2_K.gguf
   temperature: 0.5
   top_k: 40
   top_p: 0.95

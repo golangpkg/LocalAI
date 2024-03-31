@@ -23,9 +23,9 @@ template:
 
 download_files:
 - filename: llava-v1.6-mistral-7b.gguf
-  uri: huggingface://cjpais/llava-1.6-mistral-7b-gguf/llava-v1.6-mistral-7b.Q6_K.gguf
+  uri: https://hf-mirror.com/cjpais/llava-1.6-mistral-7b-gguf/llava-v1.6-mistral-7b.Q6_K.gguf
 - filename: llava-v1.6-7b-mmproj-f16.gguf
-  uri: huggingface://cjpais/llava-1.6-mistral-7b-gguf/mmproj-model-f16.gguf
+  uri: https://hf-mirror.com/cjpais/llava-1.6-mistral-7b-gguf/mmproj-model-f16.gguf
 
 usage: |
     curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/json" -d '{

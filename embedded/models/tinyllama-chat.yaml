@@ -1,7 +1,7 @@
 name: tinyllama-chat
 mmap: true
 parameters:
-  model: huggingface://TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/tinyllama-1.1b-chat-v0.3.Q8_0.gguf
+  model: https://hf-mirror.com/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/tinyllama-1.1b-chat-v0.3.Q8_0.gguf
   temperature: 0.2
   top_k: 40
   seed: -1

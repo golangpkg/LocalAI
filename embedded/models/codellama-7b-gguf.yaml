@@ -1,7 +1,7 @@
 name: codellama-7b-gguf
 backend: transformers
 parameters:
-  model: huggingface://TheBloke/CodeLlama-7B-GGUF/codellama-7b.Q4_K_M.gguf
+  model: https://hf-mirror.com/TheBloke/CodeLlama-7B-GGUF/codellama-7b.Q4_K_M.gguf
   temperature: 0.5
   top_k: 40
   seed: -1

@@ -47,7 +47,7 @@ gpu_layers: 90
 mmap: true
 parameters:
   # Reference any HF model or a local file here
-  model: huggingface://TheBloke/phi-2-GGUF/phi-2.Q8_0.gguf
+  model: https://hf-mirror.com/TheBloke/phi-2-GGUF/phi-2.Q8_0.gguf
   temperature: 0.2
   top_k: 40
   top_p: 0.95

@@ -1,7 +1,7 @@
 name: mistral-openorca
 mmap: true
 parameters:
-  model: huggingface://TheBloke/Mistral-7B-OpenOrca-GGUF/mistral-7b-openorca.Q6_K.gguf
+  model: https://hf-mirror.com/TheBloke/Mistral-7B-OpenOrca-GGUF/mistral-7b-openorca.Q6_K.gguf
   temperature: 0.2
   top_k: 40
   top_p: 0.95
